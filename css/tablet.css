@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .inf {
+    display: none;
+  }
+  #job-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: minmax(200px, 350px);
+    gap: 5px;
+    height: 60%;
+    margin-left: -50px;
+  }
+}
